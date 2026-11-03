@@ -56,4 +56,4 @@ Package build: `tsc -p tsconfig.build.json` → `dist/` (ESM + `.d.ts`, no bundl
 
 ## Publishing
 
-Not published yet. `repository` / `homepage` in `package.json` point at `github.com/reaxis/react-remote-control`, which doesn't exist yet. Release pattern as svelte-remote-control: fix commit + CHANGELOG under `## [Unreleased]`, then a `Release x.y.z` commit (`npm version x.y.z --no-git-tag-version`, dated heading) and tag `vx.y.z`.
+Not published yet. Repo: `github.com/reaxis/react-remote-control` (`origin`, branch `main`), with CI in `.github/workflows/ci.yml`. Release pattern as svelte-remote-control: fix commit + CHANGELOG under `## [Unreleased]`, then a `Release x.y.z` commit (`npm version x.y.z --no-git-tag-version`, dated heading) and tag `vx.y.z`.
