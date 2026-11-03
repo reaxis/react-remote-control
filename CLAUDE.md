@@ -56,4 +56,4 @@ Package build: `tsc -p tsconfig.build.json` → `dist/` (ESM + `.d.ts`, no bundl
 
 ## Publishing
 
-Not published yet. Repo: `github.com/reaxis/react-remote-control` (`origin`, branch `main`), with CI in `.github/workflows/ci.yml`. Release pattern as svelte-remote-control: fix commit + CHANGELOG under `## [Unreleased]`, then a `Release x.y.z` commit (`npm version x.y.z --no-git-tag-version`, dated heading) and tag `vx.y.z`.
+Published on npm: 0.1.0 (2026-11-03). Repo: `github.com/reaxis/react-remote-control` (`origin`, branch `main`), with CI in `.github/workflows/ci.yml`. Release pattern as svelte-remote-control: fix commit + CHANGELOG under `## [Unreleased]`, then a `Release x.y.z` commit (`npm version x.y.z --no-git-tag-version`, dated heading) and tag `vx.y.z`.
